@@ -1,0 +1,26 @@
+<div class='container blog-container'>
+  <div class="post-sidebar">
+    <i class="far fa-newspaper"></i>
+  </div> 
+  <div class="post-main">
+      <h3>Hej hallå!</h3>
+      <div class="meta">
+          <small class='timesstamp'>2020-12-30	15:56:58</small>
+          <p class="post-author">Viktor ännu en gång</p>
+      </div>
+      <p class="post-body">Hur år det här då tycker du? </p>
+  </div>
+</div><hr/>
+<div class='container blog-container'> 
+  <div class='post-sidebar'> 
+      <i class='far fa-newspaper'></i> 
+  </div> 
+  <div class='post-main'> 
+      <h3>Nu skriver jag en titel</h3> 
+      <div class='meta'> 
+          <small class='timesstamp'>2021-08-10	13:43:23</small> 
+          <p class='post-author'>Viktor Skrivare</p> 
+      </div> 
+      <p class='post-body'>Och här skriver jag lite body. För att se om det är ngt som händer med texten. :=)</p> 
+      </div> 
+</div> <hr/> 

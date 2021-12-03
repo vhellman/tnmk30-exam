@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Merriweather:wght@400;700&family=Mulish:wght@300;700;800;900&family=Permanent+Marker&family=Roboto:wght@300;700&display=swap" rel="stylesheet">    
+    <script src="https://kit.fontawesome.com/099ae6463c.js" crossorigin="anonymous"></script>
+    <title>This is me, not really plain nor simple</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="./index.html">
+                <img src="./img/logo_light.png" alt="Full stack developer logo" id="logo-img">
+            </a>
+        </div> 
+        <nav id='nav'>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="./index.html" class="nav__link">Hem</a></li>
+                <li class="nav__item"><a href="./index.html#about-me-section" class="nav__link">Om mig</a></li>
+                <li class="nav__item"><a href="./intresse.html" class="nav__link">Intresse</a></li>
+                <li class="nav__item settings">
+                    
+                    <i class="far fa-moon" id='toggle-icon'></i>
+                    
+                    <div id="clock" class="clock">
+                        <div class="time">
+                            <h3 id="hours">00:</h3>
+                        
+                        </div>
+                        <div class="time">
+                            <h3 id="minutes">00</h3>
+                        </div>
+                    </div>
+                    
+                </li>
+            </ul>
+            
+            <button id="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="interest-section">
+            <div class="container">
+                <div class="secondary">
+                    <img id='interest-picture' src="./img/2.jpg" alt='Neon lights that spell Do something great' />
+                </div>
+                <div class="interest-container primary">
+                    <h3>Prestationen och Människan</h3>
+                    <p>
+                        Jag har alltid haft en <strong>genuin kuriositet</strong> för andra människor på ett personligt plan. Vad är det som får de här personerna att brinna? I vilka situationer eller vad för saker får dem att stanna upp och tveka?</p>
+
+                    <p>
+                        För att kunna förstå hur din omgivning fungerar behöver vi förstå hur stress fungerar och hur personen i fråga reagerar på sådan stress. Glöm det där om bra och dålig stress, glöm informationen och stress och press. Stress kan varken vara dålig eller bra, <strong>stress är kroppens valuta</strong>. Mängden energi du har att spendera innan du behöver återhämta dig. Har du inte tillräckligt med stressbuffert, alltså, din plånbok är för liten, så kan man ta ut ett lån. Det lånet måste sedan betalas tillbaka, precis som när du lånar cash från banken. Det är här de flesta människorna går fel. De glömmer att betala sina fakturor.</p> 
+                    <p>
+                        De flesta behöver nödvänditvis inte minska mängden stress i sitt liv, utan snarare bygga en bättre resistens mot stressen de redan bär på. Stress försvinner inte, men vi kan lära oss ta hand om den bättre. </p>
+                    
+                    <h4>Fördelar med en bättre stresshantering</h4>
+                    <ul>
+                        <li>
+                            <span>Lägre upplevd stress i vardagen</span>
+                        </li>
+                        <li>
+                            <span>Bättre prestationer där du vill prestera</span>
+                        </li>
+                        <li>
+                            <span>Mer närvarande med famlij och vänner</span>
+                        </li>
+                        <li>
+                            <span>Tid över till annat, eftersom du orkar mer</span>
+                        </li>
+                        <li>
+                            <span>Du kommer sova bättre!</span>
+                        </li>
+                    </ul>
+                   <a href='#pricing-table' class='btn-cta'>Hjälp mig nu!</a>
+                </div>
+            </div>
+        </section>
+        <section id="pricing" class='price-section'> 
+            <h3>Vad du betalar för att jobba med mig</h3>
+            <div class="container pricing" id="pricing-table">
+                <div class="primary table-container">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>Paket</th>
+                            <th>Tid</th>
+                            <th>Pris</th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+                        <tr>
+                            <td>Online</td>
+                            <td>3 mån</td>
+                            <td>4500kr</td>
+                        </tr>
+
+                        <tr>
+                            <td>In-person</td>
+                            <td>1-2 mån a 8ggr</td>
+                            <td>9000kr</td>
+                        </tr>
+
+                        <tr>
+                            <td>Hybrid</td>
+                            <td>3 månader</td>
+                            <td>12 000kr</td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="secondary">
+                    <img id='pricing-picture' src="./img/4.jpg" alt='Picture of greens with a neon light saying breathe' />
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <a href="https://github.com/vhellman">
+                <i class="fab fa-github"></i> 
+            </a>
+            <a href="https://twitter.com/vhellman10">
+                <i class="fab fa-twitter"></i> 
+            </a>
+            <a href="https://www.instagram.com/vhellman10/">
+                <i class="fab fa-instagram"></i> 
+            </a>
+        </div>
+        
+    </footer>
+<script  src='script.js'></script>
+</body>
+</html>
